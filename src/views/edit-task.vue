@@ -6,11 +6,11 @@
 </template>
 
 <script>
-import { taskService } from "../services/task-service"
+import { bookService } from "../services/book-service"
 export default {
     data(){
         return{
-            taskToSave: taskService.getEmptyTask()
+            taskToSave: bookService.getEmptyTask()
         }
     }
 }

@@ -13,7 +13,7 @@ export default {
     appHome
   },
   created(){
-    this.$store.dispatch({ type: "loadTasks" });
+    this.$store.dispatch({ type: "loadBooks" });
   }
 }
 </script>

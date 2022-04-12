@@ -1,5 +1,5 @@
 import { createStore } from 'vuex'
-import taskStore from './modules/task-store'
+import taskStore from './modules/book-store'
 import userStore from './modules/user-store'
 const store = createStore({
   strict: true,

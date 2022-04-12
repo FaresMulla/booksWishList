@@ -8,7 +8,7 @@ export default {
     name:'app-home',
     computed:{
         tasks(){
-           return this.$store.getters.tasks
+           return this.$store.getters.books
         }
     }
 }
