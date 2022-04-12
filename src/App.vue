@@ -1,6 +1,6 @@
 <template>
   <div class="main-layout">
-    <h1>Master Tasking</h1>
+    <h1>Books wish list</h1>
     <router-view />
     <app-home />
   </div>
